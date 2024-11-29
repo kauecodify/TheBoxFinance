@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TheBoxFinance</title>
+    <link rel="stylesheet" href="body.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="quiz-app">
+        <div class="progress-bar">
+            <div id="progress" class="progress"></div>
+        </div>
+
+        <section id="quiz-section" class="quiz-section">
+            <h1>Strategy for your mindset :D</h1>
+            <p class="question-number">Pergunta <span id="current-question">1</span> de <span id="total-questions">20</span></p>
+            <div id="question-container" class="question-container">
+                <p id="question" class="question"></p>
+                <div id="answers" class="answers">
+                </div>
+            </div>
+            <button id="next-btn" class="next-btn hidden">Próxima</button>
+        </section>
+
+        <section id="result-section" class="result-section hidden">
+            <h1>Resultado do Quiz</h1>
+            <p id="final-score" class="final-score"></p>
+            <button id="restart-btn" class="restart-btn">Reiniciar</button>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
