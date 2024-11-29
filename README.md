@@ -12,3 +12,7 @@ chart.js para verificação dos dados e variável StatsData para cálculo de mé
 
 ![image](https://github.com/user-attachments/assets/ed9f4e82-4f0a-4210-912c-3ccce8ef8781)
 
+<img src="a.png" width="100" alt="a">
+
+MIT LICENCE ©
+
